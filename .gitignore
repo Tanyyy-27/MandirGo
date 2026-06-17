@@ -1,0 +1,96 @@
+```gitignore
+# ==========================
+# Frontend (React / Parcel)
+# ==========================
+frontend/node_modules/
+frontend/.parcel-cache/
+frontend/dist/
+frontend/build/
+frontend/.cache/
+
+# ==========================
+# Backend (Python / FastAPI)
+# ==========================
+backend/venv/
+backend/.venv/
+backend/__pycache__/
+backend/.pytest_cache/
+**/__pycache__/
+*.py[cod]
+*$py.class
+
+# ==========================
+# AI Models & Weights
+# ==========================
+*.pt
+*.pth
+*.onnx
+*.weights
+*.ckpt
+
+# ==========================
+# Videos & Media
+# ==========================
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# ==========================
+# Environment Variables
+# ==========================
+.env
+.env.*
+!.env.example
+
+# ==========================
+# Logs
+# ==========================
+*.log
+logs/
+
+# ==========================
+# Operating System Files
+# ==========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==========================
+# IDE / Editor
+# ==========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==========================
+# Python
+# ==========================
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# ==========================
+# Node / NPM
+# ==========================
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ==========================
+# Build Artifacts
+# ==========================
+dist/
+build/
+coverage/
+
+# ==========================
+# Temporary Files
+# ==========================
+tmp/
+temp/
+*.tmp
+```
