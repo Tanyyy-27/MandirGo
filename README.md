@@ -1,11 +1,8 @@
 <div align="center">
 
 <h1>
-  <img src="assets/mandirgo-logo.jpeg"
-       alt="MandirGo Logo"
-       width="55"
-       style="border-radius:50%; vertical-align:middle; margin-right:12px;">
-  MandirGo
+<img src="assets/mandirgo-logo.png" alt="MandirGo Logo" width="50" align="center" />
+&nbsp; MandirGo
 </h1>
 
 ### AI-Powered Smart Temple & Pilgrimage Management Platform
@@ -26,7 +23,6 @@
 *Building safer, smarter, and seamless pilgrimage experiences.*
 
 </div>
-```
 
 # 📖 Overview
 
