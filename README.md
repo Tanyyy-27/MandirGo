@@ -1,11 +1,8 @@
 <div align="center">
 
-<h1>
-<img src="./assets/mandirgo-logo.jpeg" alt="MandirGo" width="55"/>
-&nbsp;&nbsp;MandirGo
-</h1>
+# 🌐 MandirGo
 
-### AI-Powered Smart Temple & Pilgrimage Management Platform
+### AI-Based Smart Temple & Pilgrimage Management Platform
 
 **Real-Time Crowd Intelligence • Smart Darshan Booking • Intelligent Temple Operations**
 
@@ -23,42 +20,50 @@
 *Building safer, smarter, and seamless pilgrimage experiences through Artificial Intelligence.*
 
 </div>
-
 ---
 
 # 📖 Overview
 
-MandirGo is an AI-powered Smart Temple & Pilgrimage Management Platform designed to modernize temple operations through Computer Vision, Machine Learning, and real-time analytics.
+MandirGo is an AI-Based Smart Temple & Pilgrimage Management Platform designed to modernize temple operations through Computer Vision, Machine Learning, and real-time analytics.
 
-The platform enables temple administrations to intelligently monitor crowd density, optimize visitor flow, provide live updates, automate darshan bookings, and improve overall pilgrimage management through a unified digital ecosystem.
+The platform empowers temple administrations to intelligently monitor crowd density, optimize visitor flow, automate darshan bookings, publish live announcements, and deliver a safer, smarter, and more connected pilgrimage experience.
 
-By combining Artificial Intelligence with modern full-stack technologies, MandirGo enhances public safety, operational efficiency, and devotee experience while preserving the spiritual essence of every pilgrimage.
+By integrating Artificial Intelligence with modern software architecture, MandirGo enhances public safety, operational efficiency, and decision-making while preserving the spiritual essence of every pilgrimage.
 
 ---
 
 # 🎯 Problem Statement
 
-Millions of devotees visit temples every year, especially during festivals and special occasions. Traditional crowd management systems often struggle with increasing visitor volumes, resulting in long queues, overcrowding, communication gaps, and limited operational visibility.
+Every year, millions of devotees visit temples across India, creating operational challenges for temple administrations and safety concerns for visitors.
 
-MandirGo addresses these challenges by leveraging Artificial Intelligence, Computer Vision, and intelligent analytics to create a safer, more organized, and technology-driven pilgrimage experience.
+Traditional management systems often struggle with:
+
+- Long waiting queues
+- Overcrowding during peak hours
+- Limited real-time crowd visibility
+- Manual administrative processes
+- Delayed communication with devotees
+- Lack of predictive crowd planning
+
+MandirGo addresses these challenges by combining Artificial Intelligence, Computer Vision, and intelligent analytics into a unified digital platform that enables data-driven temple management and a seamless pilgrimage experience.
 
 ---
 
-# ✨ Features
+# ⚡ Platform Features
 
 ## 🎥 AI Crowd Intelligence
 
 - Real-time crowd detection and density analysis using CCTV
-- Intelligent crowd monitoring powered by Computer Vision
-- Continuous occupancy tracking and analytics
+- Intelligent Computer Vision monitoring
+- Continuous occupancy analytics
 
-## 📊 Live Crowd Status
+## 📡 Live Crowd Status
 
 - Live crowd status updates for devotees
 - Real-time congestion monitoring
 - Better visit planning and reduced waiting time
 
-## 🤖 Footfall Prediction
+## 📊 Intelligent Footfall Prediction
 
 - Footfall prediction using Machine Learning
 - Historical trend analysis
@@ -72,82 +77,81 @@ MandirGo addresses these challenges by leveraging Artificial Intelligence, Compu
 
 ## 📢 Event Updates & Notifications
 
-- Instant temple announcements
-- Festival and event notifications
-- Real-time communication with devotees
+- Festival announcements
+- Live event notifications
+- Instant communication with devotees
 
 ## 🚨 Emergency Alert System
 
-- Emergency alert generation
-- AI-powered fall detection
+- AI-assisted emergency alerts
+- Intelligent fall detection
 - Rapid response support for temple authorities
 
-## 🖥️ Admin Dashboard
+## 🖥️ Dedicated Admin Dashboard
 
-- Dedicated administration panel
 - Live crowd monitoring
-- Booking management
-- Event management
+- Smart booking management
+- Event administration
 - Operational analytics and insights
+- Centralized monitoring and control
 
 ---
 
 # 🏗️ System Architecture
 
 ```text
-                         Devotees
+                           Devotees
 
-                              │
+                                │
 
-                              ▼
+                                ▼
 
-                  React + Parcel Frontend
+                    React + Parcel Frontend
 
-                              │
+                                │
 
-                       REST API Calls
+                         REST API Calls
 
-                              │
+                                │
 
-                              ▼
+                                ▼
 
-                    FastAPI Backend Server
+                     FastAPI Backend Server
 
-                              │
+                                │
 
-        ┌─────────────────────┼─────────────────────┐
+          ┌─────────────────────┼─────────────────────┐
 
-        ▼                                           ▼
+          ▼                                           ▼
 
- YOLOv8 Crowd Detection                  Supabase Database
+  YOLOv8 Crowd Detection                 Supabase Database
 
-        │                                           │
+          │                                           │
 
-        └─────────────────────┬─────────────────────┘
+          └─────────────────────┬─────────────────────┘
 
-                              ▼
+                                ▼
 
-                Machine Learning Prediction Engine
+                 Machine Learning Prediction Engine
 
-                              │
+                                │
 
-                              ▼
+                                ▼
 
-             Smart Temple & Pilgrimage Management
+         Smart Temple & Pilgrimage Management Platform
 
-                              │
+                                │
 
-                              ▼
+                                ▼
 
-     Live Crowd Status • Smart Booking • Emergency Alerts
+      Live Crowd Status • Smart Booking • Emergency Alerts
 ```
-
 ---
 # 🛠️ Tech Stack
 
 | Category | Technology |
-| ---------------- | ---------------- |
-| Frontend | React.js + Parcel |
+| -------------------------- | ---------------------------- |
+| Frontend | React + Parcel |
 | Backend | FastAPI |
 | Programming Language | Python + JavaScript |
 | Artificial Intelligence | YOLOv8 |
@@ -171,344 +175,10 @@ MandirGo/
 │   └── mandirgo-logo.jpeg
 │
 ├── backend/
-│   ├── models/
-│   ├── videos/
 │   ├── server.py
 │   ├── requirements.txt
-│   ├── README.md
-│   └── .gitignore
-│
-├── frontend/
-│   ├── src/
-│   │   ├── assets/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   ├── utils/
-│   │   ├── legacy/
-│   │   ├── App.jsx
-│   │   └── index.jsx
-│   │
-│   ├── package.json
-│   ├── package-lock.json
-│   └── .gitignore
-│
-├── LICENSE
-├── README.md
-└── .gitignore
-```
-
----
-
-# 🚀 Getting Started
-
-## Clone Repository
-
-```bash
-git clone https://github.com/Tanyyy-27/MandirGo.git
-```
-
-```bash
-cd MandirGo
-```
-
----
-
-# ⚙️ Backend Setup
-
-Navigate to backend
-
-```bash
-cd backend
-```
-
-Create virtual environment
-
-```bash
-python -m venv venv
-```
-
-Activate environment
-
-### Windows
-
-```bash
-venv\Scripts\activate
-```
-
-### Linux / macOS
-
-```bash
-source venv/bin/activate
-```
-
-Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-Run FastAPI server
-
-```bash
-uvicorn server:app --reload --host 127.0.0.1 --port 8000
-```
-
-Backend will be available at
-
-```
-http://127.0.0.1:8000
-```
-
----
-
-# 💻 Frontend Setup
-
-Navigate to frontend
-
-```bash
-cd frontend
-```
-
-Install dependencies
-
-```bash
-npm install
-```
-
-Start development server
-
-```bash
-npm start
-```
-
-or
-
-```bash
-npm run dev
-```
-
-Create production build
-
-```bash
-npm run build
-```
-
-Frontend will be available at
-
-```
-http://localhost:1234
-```
-
-(or the URL generated by Parcel)
-
----
-
-# 🌐 Platform Highlights
-
-### 🧠 AI-Powered Crowd Analytics
-
-Monitor and analyze temple crowd density in real time using Computer Vision and Machine Learning.
-
-### 📈 Predictive Footfall Intelligence
-
-Forecast crowd volume and visitor trends to improve planning and resource allocation.
-
-### 📱 Smart Pilgrimage Experience
-
-Enable devotees to check live crowd status, book darshan slots, and receive important notifications.
-
-### 🏛️ Intelligent Temple Administration
-
-Empower temple authorities with centralized monitoring, booking management, operational insights, and emergency response tools.
-
----
-<div align="center">
-
-<h1>
-<img src="./assets/mandirgo-logo.jpeg" alt="MandirGo Logo" width="55"/>
-&nbsp;&nbsp;MandirGo
-</h1>
-
-### AI-Powered Smart Temple & Pilgrimage Management Platform
-
-**Real-Time Crowd Intelligence • Smart Darshan Booking • Intelligent Temple Operations**
-
-![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![FastAPI](https://img.shields.io/badge/FastAPI-0.110+-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![YOLOv8](https://img.shields.io/badge/YOLOv8-Computer%20Vision-purple?style=for-the-badge)
-![Supabase](https://img.shields.io/badge/Supabase-Backend-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
-![MIT](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
-
----
-
-### Bridging Devotion with Smart Innovation
-
-*Building safer, smarter, and seamless pilgrimage experiences through Artificial Intelligence.*
-
-</div>
-
----
-
-# 📖 Overview
-
-MandirGo is an AI-powered Smart Temple & Pilgrimage Management Platform designed to modernize temple operations through Computer Vision, Machine Learning, and real-time analytics.
-
-The platform enables temple administrations to intelligently monitor crowd density, optimize visitor flow, provide live updates, automate darshan bookings, and improve overall pilgrimage management through a unified digital ecosystem.
-
-By combining Artificial Intelligence with modern full-stack technologies, MandirGo enhances public safety, operational efficiency, and devotee experience while preserving the spiritual essence of every pilgrimage.
-
----
-
-# 🎯 Problem Statement
-
-Millions of devotees visit temples every year, especially during festivals and special occasions.
-
-Traditional crowd management systems often result in:
-
-- Long waiting queues
-- Overcrowding and safety risks
-- Lack of real-time visibility
-- Manual administrative workflows
-- Communication gaps
-- Limited operational insights
-
-MandirGo addresses these challenges through AI-powered crowd intelligence, intelligent automation, and data-driven decision making.
-
----
-
-# ✨ Platform Features
-
-## 🎥 AI Crowd Intelligence
-
-- Real-time crowd detection and density analysis using CCTV
-- Intelligent Computer Vision monitoring
-- Continuous occupancy analytics
-
-## 📡 Live Crowd Status
-
-- Live crowd status updates for devotees
-- Real-time congestion monitoring
-- Better visit planning
-
-## 📊 Footfall Prediction
-
-- Footfall prediction using Machine Learning
-- Historical trend analysis
-- Smart crowd forecasting
-
-## 📅 Smart Darshan Booking
-
-- Intelligent online darshan booking system
-- Optimized visitor scheduling
-- Reduced waiting time
-
-## 📢 Event Updates & Notifications
-
-- Festival announcements
-- Event notifications
-- Important temple updates
-
-## 🚨 Emergency Alert System
-
-- AI-assisted emergency alerts
-- Fall detection system
-- Rapid response support
-
-## 🖥️ Dedicated Admin Dashboard
-
-- Live crowd monitoring
-- Booking management
-- Event management
-- Operational analytics
-- Centralized administration
-
----
-
-# 🏗️ System Architecture
-
-```text
-                      Devotees
-
-                           │
-
-                           ▼
-
-                React + Parcel Frontend
-
-                           │
-
-                     REST API Calls
-
-                           │
-
-                           ▼
-
-                  FastAPI Backend Server
-
-                           │
-
-         ┌─────────────────┼─────────────────┐
-
-         ▼                                   ▼
-
-YOLOv8 Crowd Detection              Supabase Database
-
-         │                                   │
-
-         └─────────────────┬─────────────────┘
-
-                           ▼
-
-            Machine Learning Prediction Engine
-
-                           │
-
-                           ▼
-
-      Smart Temple & Pilgrimage Management Platform
-
-                           │
-
-                           ▼
-
- Live Crowd Status • Smart Booking • Emergency Alerts
-```
-
----
-
-# 🛠️ Tech Stack
-
-| Category | Technology |
-| ---------------- | ---------------- |
-| Frontend | React + Parcel |
-| Backend | FastAPI |
-| Language | Python + JavaScript |
-| AI | YOLOv8 |
-| Machine Learning | Scikit-learn |
-| Computer Vision | OpenCV + YOLOv8 |
-| Database | Supabase |
-| Authentication | Supabase Auth |
-| API | REST |
-| Styling | CSS |
-| Version Control | Git & GitHub |
-| Deployment | Netlify |
-
----
-
-# 📂 Project Structure
-
-```text
-MandirGo/
-
-├── assets/
-│   └── mandirgo-logo.jpeg
-│
-├── backend/
 │   ├── models/
 │   ├── videos/
-│   ├── server.py
-│   ├── requirements.txt
 │   └── README.md
 │
 ├── frontend/
@@ -533,10 +203,11 @@ MandirGo/
 
 # 🚀 Getting Started
 
-## Clone Repository
+## Clone the Repository
 
 ```bash
 git clone https://github.com/Tanyyy-27/MandirGo.git
+
 cd MandirGo
 ```
 
@@ -544,23 +215,45 @@ cd MandirGo
 
 # ⚙️ Backend Setup
 
+Navigate to the backend directory
+
 ```bash
 cd backend
+```
 
+Create a virtual environment
+
+```bash
 python -m venv venv
+```
 
-# Windows
+Activate the virtual environment
+
+### Windows
+
+```bash
 venv\Scripts\activate
+```
 
-# Linux / macOS
+### Linux / macOS
+
+```bash
 source venv/bin/activate
+```
 
+Install the required dependencies
+
+```bash
 pip install -r requirements.txt
+```
 
+Start the FastAPI server
+
+```bash
 uvicorn server:app --reload --host 127.0.0.1 --port 8000
 ```
 
-Backend
+Backend will be available at
 
 ```
 http://127.0.0.1:8000
@@ -570,44 +263,98 @@ http://127.0.0.1:8000
 
 # 💻 Frontend Setup
 
+Navigate to the frontend directory
+
 ```bash
 cd frontend
+```
 
+Install project dependencies
+
+```bash
 npm install
+```
 
+Start the development server
+
+```bash
 npm start
+```
 
-# Production
+or
+
+```bash
+npm run dev
+```
+
+Create a production build
+
+```bash
 npm run build
 ```
 
+The frontend will be available at
+
+```
+http://localhost:1234
+```
+
+(or the URL generated by Parcel)
+
 ---
 
-# 🚀 Core Capabilities
+# 🌐 Platform Highlights
 
-### 🎥 AI-Powered Crowd Intelligence
+### 🎥 Real-Time Crowd Intelligence
 
-Monitor temple crowd density in real time using Computer Vision and CCTV analytics.
+Monitor crowd density through CCTV feeds using AI-Based Computer Vision and receive instant occupancy insights.
+
+### 📊 Predictive Footfall Analytics
+
+Forecast visitor traffic using Machine Learning models to improve planning, volunteer allocation, and resource management.
+
+### 📅 Smart Darshan Experience
+
+Enable devotees to book darshan slots digitally, reducing waiting time and improving overall crowd distribution.
+
+### 📢 Intelligent Communication
+
+Deliver live announcements, event updates, and important notifications directly to devotees in real time.
+
+### 🚨 Safety & Emergency Monitoring
+
+Strengthen temple safety with emergency alerts and AI-assisted fall detection for faster response during high-footfall events.
+
+### 🖥️ Centralized Administration
+
+Manage crowd monitoring, bookings, announcements, events, and operational insights from a unified administration dashboard.
+
+---
+# 💡 Core Capabilities
+
+### 🎥 AI-Based Crowd Intelligence
+
+Monitor temple crowd density in real time through CCTV feeds using Computer Vision, enabling temple administrations to make faster, smarter, and data-driven decisions.
 
 ### 📊 Intelligent Footfall Prediction
 
-Predict visitor trends using Machine Learning for better planning and resource allocation.
+Leverage Machine Learning models to forecast visitor trends, optimize resource allocation, improve volunteer management, and prepare for peak pilgrimage periods.
 
 ### 📅 Smart Darshan Management
 
-Digitize and optimize the pilgrimage journey with intelligent booking.
+Digitize the darshan process with an intelligent booking system that minimizes waiting time, optimizes visitor flow, and enhances the overall devotee experience.
 
-### 📢 Live Communication System
+### 📢 Real-Time Communication
 
-Deliver instant announcements, event updates, and notifications.
+Provide devotees with instant announcements, festival updates, event notifications, and important alerts through a unified digital platform.
 
-### 🚨 Emergency Response
+### 🚨 Emergency Response System
 
-Improve public safety through AI-assisted emergency alerts and fall detection.
+Enhance temple safety through AI-assisted emergency alerts and fall detection, enabling rapid response during festivals and high-footfall situations.
 
 ### 🖥️ Centralized Admin Dashboard
 
-Manage crowd monitoring, bookings, events, and operational insights from one place.
+Empower temple authorities with a comprehensive dashboard for crowd monitoring, booking management, event administration, operational insights, and real-time decision making.
 
 ---
 
@@ -620,7 +367,7 @@ This project demonstrates practical experience in:
 - Computer Vision
 - YOLOv8 Object Detection
 - FastAPI Development
-- React Development
+- React Application Development
 - REST API Design
 - Real-Time Analytics
 - Smart Infrastructure Systems
@@ -632,30 +379,37 @@ This project demonstrates practical experience in:
 
 ### 🤖 AI & Analytics
 
-- AI-powered crowd prediction
-- Advanced footfall forecasting
-- Predictive safety analytics
-- Intelligent resource planning
+- Advanced crowd prediction models
+- Predictive footfall intelligence
+- AI-driven operational analytics
+- Smart resource optimization
 
 ### 🌐 Smart Infrastructure
 
-- Multi-location management
-- Volunteer coordination
-- Smart parking integration
-- IoT device connectivity
+- Multi-temple management platform
+- Volunteer management system
+- Digital donations & seva integration
+- Smart parking management
 
 ### 📱 Digital Experience
 
-- Native mobile applications
-- AI assistant
-- Personalized notifications
-- Live navigation
+- Native Android & iOS applications
+- AI-powered virtual assistant
+- Personalized devotee notifications
+- Live navigation and guidance
+
+### 🔗 Intelligent Ecosystem
+
+- IoT device integration
+- Edge AI deployment
+- Real-time monitoring dashboards
+- Advanced emergency response automation
 
 ---
 
 # 🤝 Contributing
 
-Contributions, ideas, and improvements are welcome.
+Contributions, ideas, and improvements are always welcome.
 
 1. Fork the repository
 
@@ -665,13 +419,13 @@ Contributions, ideas, and improvements are welcome.
 git checkout -b feature/new-feature
 ```
 
-3. Commit changes
+3. Commit your changes
 
 ```bash
 git commit -m "feat: add new feature"
 ```
 
-4. Push changes
+4. Push your branch
 
 ```bash
 git push origin feature/new-feature
@@ -693,7 +447,7 @@ This project is licensed under the **MIT License**.
 
 ### Founder & AI/ML Engineer
 
-*Building AI-powered Smart Infrastructure for the Future of Pilgrimage Management.*
+*Building AI-Based Smart Infrastructure for the Future of Pilgrimage Management.*
 
 🌐 **Website**  
 https://mandirgo.com
@@ -710,12 +464,12 @@ https://github.com/Tanyyy-27
 
 ## ⭐ Support the Project
 
-If you found **MandirGo** valuable, consider giving this repository a **Star ⭐**.
+If you found **MandirGo** valuable, consider giving this repository a **Star ⭐** and sharing it with the community.
 
-### Empowering temples with AI-driven crowd intelligence and building the future of smarter pilgrimage experiences.
+### Empowering temples with AI-Based crowd intelligence and building the future of smarter pilgrimage experiences.
 
-### **Bridging Devotion with Smart Innovation.**
+### Bridging Devotion with Smart Innovation.
 
-Made with ❤️ by **Tanmay Yenpure**
+**Engineered by Tanmay Yenpure**
 
 </div>
