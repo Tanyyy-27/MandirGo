@@ -143,8 +143,6 @@ MandirGo addresses these challenges by leveraging Artificial Intelligence, Compu
 ```
 
 ---
-````
-````markdown
 # 🛠️ Tech Stack
 
 | Category | Technology |
@@ -324,8 +322,6 @@ Enable devotees to check live crowd status, book darshan slots, and receive impo
 Empower temple authorities with centralized monitoring, booking management, operational insights, and emergency response tools.
 
 ---
-````
-````markdown
 <div align="center">
 
 <h1>
