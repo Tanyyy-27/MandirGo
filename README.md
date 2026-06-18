@@ -20,7 +20,6 @@
 *Building safer, smarter, and seamless pilgrimage experiences through Artificial Intelligence.*
 
 </div>
----
 
 # 📖 Overview
 
@@ -452,8 +451,8 @@ This project is licensed under the **MIT License**.
 🌐 **Website**  
 https://mandirgo.com
 
-💼 **LinkedIn**  
-https://linkedin.com/in/your-linkedin-profile
+📷 **Instagram**  
+https://www.instagram.com/mandirgo_official?igsh=MTRpeTB0NXZrMWo3dg==
 
 🐙 **GitHub**  
 https://github.com/Tanyyy-27
